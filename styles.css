@@ -1,0 +1,61 @@
+* {
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background-size: cover;
+    height: 80vh;
+}
+
+.big-title {
+    font-size: 30px;
+}
+
+/* menu de navigation */
+
+nav.headernav {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    padding-left: 5em;
+    line-height: 60px;
+}
+
+.nav-link:hover {
+    color: #0065FC;
+    border-top: 3px solid #062657;
+}
+
+.hebergements {
+    color: #0065FC;
+}
+
+.signin {
+    color: #0065FC;
+    font-weight: 600;
+    line-height: 60px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
