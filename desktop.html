@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia - OpenClassrooms</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8c3881df90.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700;800;900&display=swap');
+    </style>
 </head>
 
 <body>
@@ -16,20 +20,46 @@
         <header class="header">
             <img src="images/logo/Reservia.svg" alt="Reservia">
             <nav class="headernav">
-                <a class="hebergements nav-link">Hébergements</a>
-                <a class="activites nav-link">Activités</a>
+                <a href="" class="hebergements nav-link">Hébergements</a>
+                <a href="" class="activites nav-link">Activités</a>
                 <a class="signin">S'inscrire</a>
                 <div class="brd"></div>
             </nav>
         </header>
-     <!-- HEADER -->
+        <!-- HEADER -->
 
-        <div class="landing-page">
-            <h1 class="big-title">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="small-title">En plein centre de ville ou en pleine nature</p>
-        </div>
+        <!-- MAIN -->
+        <main class="main">
+
+            <!-- SEARCH -->
+
+            <section class="search">
+                <div class="landing-page">
+                    <h1 class="bigtitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p class="smalltitle">En plein centre de ville ou en pleine nature</p>
+                </div>
+
+                <form class="searchForm" action="proceedFrom.html" method="GET">
+                    <span class="searchFormWrapicon">
+                        <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+                    </span>
+
+                    <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+                    <button class="searchFormSubmitinput">
+                        <span class="searchFormSubmitinputText">Rechercher</span>
+                        <i class="searchFormSubmitinputIcon fas fa-search"></i>
+                    </button>
+                </form>
+
+                <div class="SearchFilters">
+                    <h2 class="searchFiltersTitle">Filtres</h2>
+                </div>
+            </section>
 
     </section>
+
+    </main>
+    <!-- MAIN -->
 
 </body>
 

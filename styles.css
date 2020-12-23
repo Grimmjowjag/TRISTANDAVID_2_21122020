@@ -1,5 +1,5 @@
 * {
-
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -8,6 +8,10 @@ body {
 }
 
 /* tete de page */
+
+.top-page {
+    margin: 0 4%;
+}
 
 header.header {
     display: flex;
@@ -23,7 +27,9 @@ section.top-page {
     height: 80vh;
 }
 
-.big-title {
+/* page de bienvenue (landing page) */
+
+.bigtitle {
     font-size: 30px;
 }
 
@@ -34,28 +40,67 @@ nav.headernav {
     list-style: none;
 }
 
+/* Apparence au survol des liens */
+
 .nav-link {
-    padding-left: 5em;
-    line-height: 60px;
+    padding: 0 2em;
+    line-height: 70px;
+    text-decoration: none;
+    color: black;
 }
 
 .nav-link:hover {
     color: #0065FC;
-    border-top: 3px solid #062657;
-}
-
-.hebergements {
-    color: #0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 .signin {
     color: #0065FC;
     font-weight: 600;
-    line-height: 60px
+    line-height: 70px;
+    padding-left: 5em;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.searchForm {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.searchFormWrapicon {
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+.searchFormSearchinput {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 14rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+
+.searchFormSubmitinput {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.5rem;
+    font-family: "Raleway";
+    font-size: 1rem;
+    cursor: pointer;
 }
 
