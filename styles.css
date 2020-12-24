@@ -1,10 +1,19 @@
+/* Ensemble */
+
 * {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
-}
-
-body {
     margin: 0;
     padding: 0;
+}
+
+/* base code */
+
+h1 {
+    margin: 50px 0;
+}
+
+p {
+    margin: 15px 0;
 }
 
 /* tete de page */
@@ -114,24 +123,33 @@ nav.headernav {
     margin-top: 2em;
 }
 
-.FiltersTitle {
-    margin: 0.3em 0;
-}
-
 .AllFilter {
     margin-left: 3em;
     background-color: white;
     border: #F2F2F2 2px solid;
     border-radius: 2rem;
-    font-weight: bold;
     font-family: "Raleway";
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    cursor: pointer;
 }
 
 .AllFilter .fas {
     color: #0065FC;
     background-color: #DEEBFF;
-    margin-right: 12px;
     border-radius: 30px;
-    font-size: 1.3em;
-    padding: 1rem 1.20rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.AllFiltertext, .FiltersTitle {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+
