@@ -13,64 +13,208 @@
 </head>
 
 <body>
-    <main>
-        <!-- MAIN -->
+
+    <!-- HEADER -->
+
+    <section class="top-page">
+
+        <header class="header">
+            <img src="images/logo/Reservia.svg" alt="Reservia">
+            <nav class="headernav">
+                <a href="" class="hebergements nav-link">Hébergements</a>
+                <a href="" class="activites nav-link">Activités</a>
+                <a href="" class="signin">S'inscrire</a>
+                <div class="brd"></div>
+            </nav>
+        </header>
 
         <!-- HEADER -->
 
-        <section class="top-page">
+        <!-- SEARCH -->
 
-            <header class="header">
-                <img src="images/logo/Reservia.svg" alt="Reservia">
-                <nav class="headernav">
-                    <a href="" class="hebergements nav-link">Hébergements</a>
-                    <a href="" class="activites nav-link">Activités</a>
-                    <a href="" class="signin">S'inscrire</a>
-                    <div class="brd"></div>
+        <section class="search">
+            <div class="landing-page">
+                <h1 class="bigtitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="smalltitle">En plein centre ville ou en pleine nature</p>
+            </div>
+
+            <form class="searchForm" action="proceedFrom.html" method="GET">
+                <i class="fas fa-map-marker-alt"></i>
+                <input class="searchinput" type="search" placeholder="Marseille, France" size="1">
+                <button class="searchbutton">Rechercher</button>
+            </form>
+
+            <div class="Filters">
+                <p class="FiltersTitle">Filtres</p>
+
+                <button class="AllFilter">
+                    <span class="fas fa-money-bill-wave fa-lg"></span>
+                    <span class="AllFiltertext">Économique</span>
+                </button>
+
+                <button class="AllFilter">
+                    <span class="fas fa-child fa-lg"></span>
+                    <span class="AllFiltertext">Familial</span>
+                </button>
+
+                <button class="AllFilter">
+                    <span class="fas fa-heart fa-lg"></span>
+                    <span class="AllFiltertext">Romantique</span>
+                </button>
+
+                <button class="AllFilter">
+                    <span class="fas fa-dog fa-lg"></span>
+                    <span class="AllFiltertext">Animaux autorisés</span>
+                </button>
+            </div>
+
+            <div class="info">
+                <button class="fas fa-info"></button>
+                <span class="infoTitle">Plus de 500 logements sont disponibles dans cette ville</span>
+            </div>
+        </section>
+
+        <!-- SEARCH -->
+
+    </section>
+
+    <main>
+
+        <!-- MAIN -->
+
+        <section class="main">
+            <div id="hosting">
+                <nav class="hostingnav">
+                    <a href=""class="Auberge la Cannebière"></a>
+                    <a href=""class="Hôtel du port"></a>
+                    <a href=""class="Hôtel Les mouettes"></a>
+                    <a href=""class="Hôtel de la mer"></a>
+                    <a href=""class="Auberge Le Panier"></a>
+                    <a href=""class="Hôtel chez Amina"></a>
                 </nav>
-            </header>
-            <!-- HEADER -->
+                <header>
+                    <h2>Hébergements à Marseille</h2>
+                </header>
 
-            <!-- SEARCH -->
+                <div class="hotel-choice">
+                    <a href="" class="hotel">
 
-            <section class="search">
-                <div class="landing-page">
-                    <h1 class="bigtitle">Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p class="smalltitle">En plein centre ville ou en pleine nature</p>
-                </div>
+                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                            alt="Auberge la Cannebière">
+                        <div class="hotel-details">
+                            <p class="hotel-name">Auberge la Cannebière</p>
+                            <p class="hotel-price">Nuit à partir de <span class="price">25€</span></p>
+                            <span class="blue-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="grey-stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                    </a>
 
-                <form class="searchForm" action="proceedFrom.html" method="GET">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <input class="searchinput" type="search" placeholder="Marseille, France" size="1">
-                    <button class="searchbutton">Rechercher</button>
-                </form>
+                    <a href="" class="hotel">
 
-                <div class="Filters">
-                    <p class="FiltersTitle">Filtres</p>
+                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
+                        <div class="hotel-details">
+                            <p class="hotel-name">Hôtel du port</p>
+                            <p class="hotel-price">Nuit à partir de <span class="price">52€</span></p>
+                            <span class="blue-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                    </a>
 
-                    <button class="AllFilter">
-                        <span class="fas fa-money-bill-wave fa-lg"></span>
-                        <span class="AllFiltertext">Économique</span>
-                    </button>
+                    <a href="" class="hotel">
 
-                    <button class="AllFilter">
-                        <span class="fas fa-child fa-lg"></span>
-                        <span class="AllFiltertext">Familial</span>
-                    </button>
+                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
+                        <div class="hotel-details">
+                            <p class="hotel-name">Hôtel Les mouettes</p>
+                            <p class="hotel-price">Nuit à partir de <span class="price">76€</span></p>
+                            <span class="blue-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="grey-stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>         
+                    </a>
 
-                    <button class="AllFilter">
-                        <span class="fas fa-heart fa-lg"></span>
-                        <span class="AllFiltertext">Romantique</span>
-                    </button>
+                    <a href="" class="hotel">
 
-                    <button class="AllFilter">
-                        <span class="fas fa-dog fa-lg"></span>
-                        <span class="AllFiltertext">Animaux autorisés</span>
-                    </button>
-                </div>
-            </section>
+                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
+                        <div class="hotel-details">
+                            <p class="hotel-name">Hôtel de la mer</p>
+                            <p class="hotel-price">Nuit à partir de <span class="price">46€</span></p>
+                            <span class="blue-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="grey-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="" class="hotel">
+
+                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
+                        <div class="hotel-details">
+                            <p class="hotel-name">Auberge Le Panier</p>
+                            <p class="hotel-price">Nuit à partir de <span class="price">23€</span></p>
+                            <span class="blue-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="grey-stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="" class="hotel">
+
+                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
+                        <div class="hotel-details">
+                            <p class="hotel-name">Hôtel chez Amina</p>
+                            <p class="hotel-price">Nuit à partir de <span class="price">96€</span></p>
+                            <span class="blue-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                    </a>
+            </div>
+
+            <footer class="afficherplus">
+                <a href="">Afficher plus</a>
+            </footer>
 
         </section>
+
+            <aside class="trending">
+                <header>
+                    <h2>Les plus populaires</h2>
+                    <span><i class="fas fa-chart-line"></i></span>
+                </header>
+            </aside>
 
         <!-- MAIN -->
     </main>

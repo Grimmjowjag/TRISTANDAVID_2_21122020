@@ -40,6 +40,11 @@ section.top-page {
 
 .bigtitle {
     font-size: 30px;
+    margin-bottom: 0;
+}
+
+.smalltitle {
+    margin-bottom: 20px;
 }
 
 /* menu de navigation */
@@ -152,4 +157,107 @@ nav.headernav {
     font-weight: bold;
 }
 
+.info {
+    padding-top: 50px;
+}
 
+.fa-info {
+    color: #0065FC;
+    background-color: white;
+    border: #F2F2F2 2px solid;
+    border-radius: 2rem;
+    padding: 0.65rem 0.90rem ;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* Hébergements à Marseille */
+
+#hosting {
+    background-color: #F2F2F2;
+    min-width: 350px;
+    max-width: 70%;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.main header {
+    font-size: 1.2rem;
+    padding: 25px 25px 0 35px;
+    margin: 0;
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: flex;
+}
+
+/* Placement des images */
+
+.hotel {
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.hotel img {
+    object-position: center;
+    object-fit: cover;
+    width: 250px;
+    height: 9em;
+    padding: 5px 5px 0 5px;
+    border-radius: 25px 25px 0 0;
+}
+
+.hotel-choice {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 200px;
+    padding: 25px 25px;
+    justify-content: space-between;
+}
+
+.hotel-details {
+    flex-grow: 1;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.hotel-name {
+    font-weight: bold;
+}
+
+.hotel-price {
+    margin-bottom: 10px;
+}
+
+.blue-stars {
+    color: #0065FC;
+}
+
+.grey-stars {
+    color: grey;
+}
+
+.price {
+    font-weight: bold;
+}
+
+/* Hébergements footer */
+
+.afficherplus {
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Aside */
+
+.trending {
+    max-width: 30%;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+}
