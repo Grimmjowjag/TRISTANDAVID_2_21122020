@@ -204,9 +204,12 @@ nav.headernav {
 /* //Section hosting et trending //*/
 
 main {
-    display: flex;
     margin: 0 3.5%;
     height: 100%;
+}
+
+.Global {
+    display: flex
 }
 
 /* Placement des images */
@@ -303,7 +306,7 @@ main {
     margin: 15px;
 }
 
-/* Taille des images trending (populaires) */
+/* Taille des images trending */
 
 .trend-choice img {
     object-position: center;
@@ -368,21 +371,75 @@ main {
 /* Activy*/
 
 #Activity {
+    display: flex;
     background-color: white;
     min-width: 350px;
 }
 
-.Picture-activity header {
+/* Picture-activity1 & 2 */
+
+.Picture-activity1, .Picture-activity2 {
+    display: flex;
+}
+
+.Activity, header {
     font-size: 1.2rem;
     padding: 25px 25px 0 35px;
     margin: 0;
 }
 
-.Picture-activity a {
+.Picture-activity1, .Picture-activity2, a {
     text-decoration: none;
     color: black;
 }
 
-.Picture-activity p{
+/* Taille images */
+
+.big {
+    width: 300px;
+    height: 390px;
+}
+
+.little {
+    width: 300px;
+    height: 150px;
+}
+
+.Frioul {
+    width: 300px;
+    height: 130px;
+}
+
+/* Border des images activity */
+
+.big, .little, .Frioul {
+    border-radius: 25px 25px 0 0;
+    object-position: center;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.Activity-pic {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 0 70px 25px 25px;
+    margin: 1em;
+    width: 320px;
+    box-shadow: 10px 10px 10px #E1E1E1;
+}
+
+/* Taille texte */
+
+.paragraph {
+    flex-grow: 1;
+    margin: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
     font-weight: bold;
+}
+
+.activity-details {
+    border-radius: 0 0 25px 25px;
+    background-color: white;
 }
