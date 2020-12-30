@@ -181,6 +181,8 @@ nav.headernav {
 
 /* Hébergements à Marseille */
 
+/* Block hosting et couleur de fond */
+
 #hosting {
     background-color: #F2F2F2;
     min-width: 350px;
@@ -329,6 +331,12 @@ main {
     box-shadow: 10px 10px 10px #E1E1E1;
 }
 
+/* Mise en gras nom hôtels trending */
+
+.trend-name {
+    font-weight: bold;
+}
+
 .trend-details {
     margin-bottom: 0;
     padding-left: 20px;
@@ -351,8 +359,30 @@ main {
     color: black;
 }
 
+/* Mise en gras icône trending */
+
+.trending header span {
+    font-size: 1.5rem;
+}
+
 /* Activy*/
 
 #Activity {
-    
+    background-color: white;
+    min-width: 350px;
+}
+
+.Picture-activity header {
+    font-size: 1.2rem;
+    padding: 25px 25px 0 35px;
+    margin: 0;
+}
+
+.Picture-activity a {
+    text-decoration: none;
+    color: black;
+}
+
+.Picture-activity p{
+    font-weight: bold;
 }
