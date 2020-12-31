@@ -186,7 +186,7 @@ nav.headernav {
 #hosting {
     background-color: #F2F2F2;
     min-width: 350px;
-    margin: 15px;
+    margin: 15px 15px 15px 0;
     border-radius: 30px;
 }
 
@@ -303,7 +303,7 @@ main {
     min-width: 30%;
     background-color: #F2F2F2;
     border-radius: 25px;
-    margin: 15px;
+    margin: 15px 0 15px 15px;
 }
 
 /* Taille des images trending */
@@ -384,7 +384,7 @@ main {
 }
 
 .column {
-    width: 25%;
+    width: 22%;
 }
 
 .column2-4 {
@@ -405,8 +405,12 @@ main {
     align-content: center;
     font-size: 1.2rem;
     /* height: 2rem; */
-    padding-right: 25px;
+    /* padding-right: 25px; */
     margin: 0;
+}
+
+.Activity header {
+    margin: 3rem 0 2rem 0;
 }
 
 .Picture-activity1, .Picture-activity2, a {
@@ -457,12 +461,13 @@ main {
 
 /* Taille texte */
 
-.paragraph {
+.activity-tittle {
     flex-grow: 1;
     margin: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 10px;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 .activity-details {
@@ -472,16 +477,15 @@ main {
 
 /* FOOTER */
 
-/* .bottom-page{
+.bottom-page{
     display: flex;
     background-color: #F2F2F2;
-    margin-top: 15px;
-    padding: 0 5%;
+    width: 100%;
+    margin-top: 3rem;
   }
   
   .bottom-page div{
     padding: 15px;
-    padding-right: 17em;
   }
   
   .bottom-page p{
@@ -491,4 +495,12 @@ main {
   .bottom-page a{
     text-decoration: none;
     color: black;
-  } */
+  }
+
+  footer div {
+      margin-right: 18%;
+  }
+
+  .about {
+      margin-left: 3rem;
+  }
