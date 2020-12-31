@@ -6,11 +6,11 @@
     padding: 0;
 }
 
-/* body {
+body {
     width: 1440px;
     margin: auto;
-    border: 1px solid black;
-} */
+    /* border: 1px solid black; */
+}
 
 /* base code */
 
@@ -90,7 +90,7 @@ nav.headernav {
 .searchForm {
     display: inline-flex;
     max-width: 100%;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .fa-map-marker-alt {
@@ -370,10 +370,23 @@ main {
 
 /* Activy*/
 
-#Activity {
+.Activity {
     display: flex;
+    flex-direction: column;
     background-color: white;
     min-width: 350px;
+}
+
+.Activity-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.column2-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Picture-activity1 & 2 */
@@ -383,8 +396,12 @@ main {
 }
 
 .Activity, header {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
     font-size: 1.2rem;
-    padding: 25px 25px 0 35px;
+    height: 2rem;
+    /* padding: 25px 25px 0 35px; */
     margin: 0;
 }
 
@@ -422,11 +439,17 @@ main {
 .Activity-pic {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: white;
     border-radius: 0 70px 25px 25px;
-    margin: 1em;
-    width: 320px;
-    box-shadow: 10px 10px 10px #E1E1E1;
+    /* margin: 1em; */
+    /* width: 320px; */
+    box-shadow: 10px 10px 10px #E1E1E1; 
+}
+
+.Activity-pic img {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
 }
 
 /* Taille texte */
@@ -442,4 +465,17 @@ main {
 .activity-details {
     border-radius: 0 0 25px 25px;
     background-color: white;
+}
+
+/* FOOTER */
+
+#Bottom-page {
+    background-color: #F2F2F2;
+    min-width: 350px;
+    margin: 50px;
+}
+
+.bottomtext {
+    display: flex;
+    justify-content: space-between;
 }
