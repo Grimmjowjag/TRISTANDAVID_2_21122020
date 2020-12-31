@@ -383,6 +383,10 @@ main {
     width: 100%; 
 }
 
+.column {
+    width: 25%;
+}
+
 .column2-4 {
     display: flex;
     flex-direction: column;
@@ -400,8 +404,8 @@ main {
     justify-content: flex-start;
     align-content: center;
     font-size: 1.2rem;
-    height: 2rem;
-    /* padding: 25px 25px 0 35px; */
+    /* height: 2rem; */
+    padding-right: 25px;
     margin: 0;
 }
 
@@ -433,7 +437,6 @@ main {
     border-radius: 25px 25px 0 0;
     object-position: center;
     object-fit: cover;
-    margin: 20px;
 }
 
 .Activity-pic {
@@ -469,13 +472,23 @@ main {
 
 /* FOOTER */
 
-#Bottom-page {
-    background-color: #F2F2F2;
-    min-width: 350px;
-    margin: 50px;
-}
-
-.bottomtext {
+/* .bottom-page{
     display: flex;
-    justify-content: space-between;
-}
+    background-color: #F2F2F2;
+    margin-top: 15px;
+    padding: 0 5%;
+  }
+  
+  .bottom-page div{
+    padding: 15px;
+    padding-right: 17em;
+  }
+  
+  .bottom-page p{
+    font-weight: 500;
+  }
+  
+  .bottom-page a{
+    text-decoration: none;
+    color: black;
+  } */
