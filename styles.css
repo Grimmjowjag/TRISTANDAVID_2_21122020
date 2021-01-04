@@ -136,9 +136,13 @@ nav.headernav {
     margin-top: 2em;
 }
 
+/* Effet filtres au survol */
+
 .AllFilter:hover {
     transform: scale(1.1)
 }
+
+/* Disposition flexbox filtres */
 
 .AllFilter {
     margin-left: 3em;
