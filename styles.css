@@ -6,11 +6,11 @@
     padding: 0;
 }
 
-/* body {
+body {
     width: 1440px;
     margin: auto;
     border: 1px solid black;
-} */
+}
 
 /* base code */
 
@@ -48,6 +48,9 @@ header.header img {
 
 .smalltitle {
     margin-bottom: 20px;
+    font-size: 100%;
+    font-weight: 500;
+    padding-top: 0.6em;
 }
 
 /* menu de navigation */
@@ -504,3 +507,6 @@ main {
   .about {
       margin-left: 3rem;
   }
+
+/* MEDIA QUERIES */
+
