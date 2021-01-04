@@ -139,8 +139,10 @@ nav.headernav {
 /* Effet filtres au survol */
 
 .AllFilter:hover {
-    transform: scale(1.1)
+    transform: scale(1.1) 
 }
+
+/* propriété transform fait en sorte que le bouton des filtres s'élargit au survol */
 
 /* Disposition flexbox filtres */
 
@@ -169,7 +171,7 @@ nav.headernav {
 }
 
 .AllFiltertext, .FiltersTitle {
-    padding: 0 10px;
+    padding: 0 20px;
     font-weight: bold;
 }
 
