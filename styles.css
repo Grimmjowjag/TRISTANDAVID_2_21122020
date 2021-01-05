@@ -232,8 +232,8 @@ main {
     flex-direction: column;
     background-color: #FFFFFF;
     border-radius: 25px;
-    width: 29%;
-    margin: 1em;
+    width: 31.5%;
+    margin-bottom: 1em;
     box-shadow: 10px 10px 10px #E1E1E1;
 }
 
@@ -242,10 +242,8 @@ main {
 .hotel img {
     object-position: center;
     object-fit: cover;
-
     width: 96%;
     height: 10em; 
-
     padding: 5px 5px 0 5px;
     border-radius: 25px 25px 0 0;
 }
@@ -519,19 +517,59 @@ main {
   }
 
   footer div {
-      margin-right: 18%;
+    margin-right: 18%;
   }
 
   .about {
-      margin-left: 3rem;
+    margin-left: 3rem;
   }
 
-        /* MEDIA QUERIES */
+            /* MEDIA QUERIES */
 
-@media screen and (max-width: 640px){
-    /* CSS appliqué aux écrans de 640px maximum */
+/* Media Queries Global-Hosting-Trending Tablette/Mobile*/
 
+@media screen and (max-width: 1024px) {
     .Global {
-        flex-wrap: wrap-reverse;
+        flex-direction: column;
+    }
+    
+    .hotel {
+        width: 45%;
+    }
+}
+
+/* Passe aux dimensions mobile */
+
+/* Section Global */
+
+@media screen and (max-width: 640px) {
+    .Global {
+        flex-direction: column;
+    }
+
+    .hotel {
+        width: 80%;
+    }
+
+    .hotel img {
+        width: 100%;
+    }
+    
+    .hotel-choice {
+        justify-content: center;
+    }
+}
+
+/* Section Activity */
+
+@media screen and (max-width: 640px) {
+    .Activity-content {
+        justify-content: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        width: 100%;
     }
 }
