@@ -6,10 +6,11 @@
     padding: 0;
 }
 
+/* Taille maquette desktop */
+
 /* body {
     width: 1440px;
     margin: auto;
-    /* border: 1px solid black; */
 } */
 
 /* base code */
@@ -149,7 +150,7 @@ nav.headernav {
 .AllFilter {
     margin-left: 3em;
     background-color: white;
-    border: #F2F2F2 2px solid;
+    border: #D9D9D9 1px solid;
     border-radius: 2rem;
     font-family: "Raleway";
     display: flex;
@@ -168,10 +169,12 @@ nav.headernav {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    right: 2px;
 }
 
 .AllFiltertext, .FiltersTitle {
-    padding: 0 20px;
+    padding: 0 1.5em;
     font-weight: bold;
 }
 
@@ -219,7 +222,7 @@ main {
 }
 
 .Global {
-    display: flex
+    display: flex;
 }
 
 /* Placement des images */
@@ -523,5 +526,12 @@ main {
       margin-left: 3rem;
   }
 
-/* MEDIA QUERIES */
+        /* MEDIA QUERIES */
 
+@media screen and (max-width: 640px){
+    /* CSS appliqué aux écrans de 640px maximum */
+
+    .Global {
+        flex-wrap: wrap-reverse;
+    }
+}
