@@ -8,11 +8,10 @@
 
 /* Taille maquette desktop */
 
-body {
+/* body {
     width: 1440px;
     margin: auto;
-    border-radius: 1px solid black;
-}
+} */
 
 /* base code */
 
@@ -62,15 +61,16 @@ header.header img {
 
 /* menu de navigation */
 
-nav.headernav {
+.headernav {
     display: flex;
-    list-style: none;  
+    list-style: none;
+    width: 21%;
+    justify-content: space-between;
 }
 
 /* Apparence au survol des liens */
 
 .nav-link {
-    /* padding: 0 2em; */
     line-height: 70px;
     text-decoration: none;
     color: black;
@@ -192,7 +192,7 @@ nav.headernav {
     border: #F2F2F2 2px solid;
     border-radius: 2rem;
     padding: 0.65rem 0.90rem ;
-    margin-right: 15px;
+    margin-right: 5px;
     cursor: pointer;
 }
 
@@ -530,6 +530,25 @@ main {
 
             /* MEDIA QUERIES */
 
+/* Breakpoint 1300px */
+
+@media screen and (max-width: 1300px) {
+
+    .headernav {
+        width: 60%;
+        justify-content: space-around;
+    }
+    
+    .logo {
+        width: 11%;
+    }
+
+    .signin {
+        width: 11%;
+    }
+
+}
+
 /* Dimensions Tablette */
 
 @media screen and (max-width: 1024px) {
@@ -548,13 +567,44 @@ main {
 /* Section Global */
 
 @media screen and (max-width: 640px) {
-    
+
+    .top-page {
+        margin: 0;
+        margin-bottom: 30px;
+        background-size: cover;
+    }    
+
     .header {
+        flex-wrap: wrap;
         width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .logo {
+        margin-left: 0.5rem;
+        width: 45%;
+        order: 1;
+    }
+
+    .headernav {
+        width: 100%;
+        justify-content: space-between;
+        order: 3
+    }
+
+    .signin {
+        display: flex;
+        justify-content: flex-end;
+        width: 45%;
+        margin-right: 0.5rem;
+        order: 2
     }
 
     .nav-link {
         border-bottom: solid 3px #F2F2F2;
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
     
     .nav-link:hover {
@@ -563,6 +613,16 @@ main {
         border-bottom: 3px solid #0065FC;
     }
     
+    /* Marge gauche des titres et I de information */
+
+    .bigtitle {
+        margin-top: 1rem;
+    }
+
+    .bigtitle, .smalltitle, .info {
+        margin-left: 1.5rem;
+    }
+
     .searchForm {
         width: 100%;
     }
@@ -573,7 +633,7 @@ main {
     }
 
     .Global {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .hotel {
@@ -610,10 +670,10 @@ main {
         width: 100%;
     }
 
-/* Marges pour lodging/help */
+/* Marges pour bottom-page */
 
-    .our-lodging, .help {
-        margin-left: 3rem;
+    .about, .our-lodging, .help {
+        margin-left: 1rem;
     }
 
 }
