@@ -132,12 +132,6 @@ header.header img {
     cursor: pointer;
 }
 
-/* Bouton loupe caché */
-
-/* .fa-search {
-    visibility: hidden;
-} */
-
 /* Filtres */
 
 .Filters {
@@ -164,7 +158,6 @@ header.header img {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: fit-content;
     cursor: pointer;
 }
 
@@ -557,6 +550,8 @@ main {
 
 @media screen and (max-width: 1024px) {
 
+
+
     .Global {
         flex-direction: column;
     }
@@ -564,9 +559,16 @@ main {
     .hotel {
         width: 45%;
     }
+
 }
 
 /* Dimensions mobile */
+
+@media screen and (min-width: 641px) {
+    .fa-search {
+        visibility: hidden;
+    }
+}
 
 @media screen and (max-width: 640px) {
 
@@ -575,6 +577,10 @@ main {
         margin-bottom: 30px;
         background-size: cover;
     }    
+
+    header.header {
+        margin-bottom: 1.5rem;
+    }
 
     .header {
         flex-wrap: wrap;
@@ -623,11 +629,6 @@ main {
 
     .bigtitle {
         font-size: 24px;
-        margin-left: 1.5rem;
-    }
-
-    .smalltitle {
-        margin-left: 0.7rem;
     }
 
     .searchForm {
@@ -671,6 +672,16 @@ main {
     .Filters {
         display: inline-flex;
         flex-direction: column;
+        margin-top: 1em;
+    }
+
+    .AllFilter {
+        margin-bottom: 1em;
+    }
+
+    .AllFiltertext, .FiltersTitle {
+        padding: 0 1em;
+        font-weight: bold;
     }
 
     .Global {
