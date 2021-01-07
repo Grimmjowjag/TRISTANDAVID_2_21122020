@@ -243,7 +243,6 @@ main {
 .hotel img {
     object-position: center;
     object-fit: cover;
-    width: 96%;
     height: 10em; 
     padding: 5px 5px 0 5px;
     border-radius: 25px 25px 0 0;
@@ -704,6 +703,13 @@ main {
 
 /* Section Trending */
 
+    .trending header {
+        padding: 25px 25px 0 35px;
+        margin: 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .trending {
         width: 100%;
         margin: 0;
@@ -732,14 +738,13 @@ main {
     }
 
     .hotel img {
-        width: 100%;
         object-position: center;
         object-fit: cover;
-        padding: 5px;
     }
     
     .hotel-choice {
         justify-content: center;
+        padding: 25px 0;
     }
 
 /* Section Activity */
