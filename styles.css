@@ -193,6 +193,17 @@ header.header img {
     cursor: pointer;
 }
 
+/*// Main et Hosting/Trending //*/
+
+main {
+    margin: 0 3.5%;
+    height: 100%;
+}
+
+.Global {
+    display: flex;
+}
+
 /* Hébergements à Marseille */
 
 /* Block hosting et couleur de fond */
@@ -213,17 +224,6 @@ header.header img {
 .HebergementsMarseille a {
     text-decoration: none;
     color: black;
-}
-
-/* //Section hosting et trending //*/
-
-main {
-    margin: 0 3.5%;
-    height: 100%;
-}
-
-.Global {
-    display: flex;
 }
 
 /* Placement des images */
@@ -550,8 +550,6 @@ main {
 
 @media screen and (max-width: 1024px) {
 
-
-
     .Global {
         flex-direction: column;
     }
@@ -571,6 +569,14 @@ main {
 }
 
 @media screen and (max-width: 640px) {
+
+/* Body haut de page */
+
+    /* MAIN */
+
+    main {
+        margin: 0;
+    }
 
     .top-page {
         margin: 0;
@@ -634,6 +640,7 @@ main {
     .searchForm {
         display: inline-flex;
         max-width: 100%;
+        margin-left: 0.5em;
     }
 
     .searchinput {
@@ -679,13 +686,45 @@ main {
         margin-bottom: 1em;
     }
 
-    .AllFiltertext, .FiltersTitle {
-        padding: 0 1em;
-        font-weight: bold;
+    .info {
+        padding-top: 10px;
     }
+
+/* Global */
 
     .Global {
         flex-direction: column-reverse;
+    }
+
+    /* Prix sans gras Hosting/Trending */
+
+    .price {
+        font-weight: 500;
+    }
+
+/* Section Trending */
+
+    .trending {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .trend-choice {
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        min-height: 200px;
+        padding: 25px 25px;
+        justify-content: space-between;
+    }
+
+/* Section Hosting */
+
+    #hosting {
+        background-color: white;
+        margin: 0;
+        border-radius: 0;
     }
 
     .hotel {
@@ -694,6 +733,9 @@ main {
 
     .hotel img {
         width: 100%;
+        object-position: center;
+        object-fit: cover;
+        padding: 5px;
     }
     
     .hotel-choice {
