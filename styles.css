@@ -137,6 +137,10 @@ header.header img {
     margin-top: 2em;
 }
 
+.Filterorder {
+    display: flex;
+}
+
 /* Effet filtres au survol */
 
 .AllFilter:hover {
@@ -743,6 +747,10 @@ main {
         border-radius: 0;
     }
 
+    .HebergementsMarseille header {
+        font-size: 0.9rem;
+    }
+
     .hotel {
         width: 90%;
     }
@@ -763,9 +771,18 @@ main {
 
 /* Section Activity */
     
+    .Activity header {
+        margin: 3rem 3rem 0 1.5rem;
+        font-size: 0.9rem;
+    }
+
     .Activity-content {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
+        width: 90%;
+        flex-direction: row;
+        margin: 20px;
     }
 
     .column {
