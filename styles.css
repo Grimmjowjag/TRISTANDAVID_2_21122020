@@ -680,6 +680,8 @@ main {
         margin-top: 1em;
     }
 
+    /* Ordre des filtres en responsiv */
+
     .Filterorder {
         display: flex;
         flex-direction: row;
@@ -742,7 +744,7 @@ main {
     }
 
     .hotel {
-        width: 80%;
+        width: 90%;
     }
 
     .hotel img {
