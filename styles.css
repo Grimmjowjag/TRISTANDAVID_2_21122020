@@ -735,8 +735,17 @@ main {
         display: flex;
         flex-direction: column;
         min-height: 200px;
-        padding: 25px 25px;
+        padding: 25px 15px;
         justify-content: space-between;
+    }
+
+    .trend-hotel {
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    .trend-choice img {
+        width: 45%;
     }
 
 /* Section Hosting */
@@ -790,10 +799,36 @@ main {
         width: 100%;
     }
 
+    .Activity-pic {
+        margin-bottom: 1em;
+    }
+
+    .big {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .little {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .Frioul {
+        width: 200px;
+        height: 200px;
+    }
+
+    .big, .little, .Frioul {
+        border-radius: 25px 25px 0 0;
+        object-position: center;
+        object-fit: cover;
+    }
+
 /* Section bottom-page */
 
     .bottom-page{
         flex-wrap: wrap;
+        margin-top: 0;
     }
 
     .bottom-page div{
