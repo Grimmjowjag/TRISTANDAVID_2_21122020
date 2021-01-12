@@ -555,8 +555,156 @@ main {
         flex-direction: column;
     }
     
+    /* Filtres */
+
+    .Filters {
+        display: inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1em;
+    }
+
+    /* Ordre des filtres en responsiv */
+
+    .Filterorder {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .AllFilter {
+        margin: 0.5em 3em;
+    }
+
+    /* Info */
+
+    .info {
+        padding-top: 25px;
+    }
+
+/* Section Hosting */
+
+    #hosting {
+        background-color: white;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .HebergementsMarseille header {
+        padding: 2rem 3rem 0 .5rem;
+        font-size: 0.9rem;
+    }
+
     .hotel {
+        width: 31%;
+        margin-right: 1em;
+    }
+
+    .hotel img {
+        object-position: center;
+        object-fit: cover;
+    }
+    
+    .hotel-choice {
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    .HebergementsMarseille .afficherplus {
+        padding: 10px 25px 25px 35px;
+    }
+
+/* Section Trending */
+
+    .trending header {
+        font-size: 0.9rem;
+        margin: 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .trending {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .trend-choice {
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        min-height: 200px;
+        padding: 25px 15px;
+        justify-content: space-between;
+    }
+
+    .trend-hotel {
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    .trend-choice img {
         width: 45%;
+    }
+
+/* Section Activity */
+    
+    .Activity header {
+        margin: 3rem 3rem 0 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .Activity-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 90%;
+        flex-direction: row;
+        margin: 20px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .Activity-pic {
+        margin-bottom: 1em;
+    }
+
+    .big {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .little {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .Frioul {
+        width: 200px;
+        height: 200px;
+    }
+
+    .big, .little, .Frioul {
+        border-radius: 25px 25px 0 0;
+        object-position: center;
+        object-fit: cover;
+    }
+
+/* Section bottom-page */
+
+    .bottom-page{
+        margin-top: 0;
+    }
+
+    .bottom-page div{
+        width: 100%;
+    }
+
+    /* Marges pour bottom-page */
+
+    .about, .our-lodging, .help {
+        margin-left: 1rem;
     }
 
 }
@@ -694,7 +842,7 @@ main {
 
     .AllFilter {
         margin-bottom: 1em;
-        margin: 10 10 10 0;
+        margin: 10px 10px 10px 0;
         margin-left: 0;
         margin-right: 1em;
     }
@@ -841,4 +989,4 @@ main {
         margin-left: 1rem;
     }
 
-} */
+}
