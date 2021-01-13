@@ -640,10 +640,18 @@ main {
     .trend-hotel {
         margin: 0;
         margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        width: 31%;
     }
 
     .trend-choice img {
-        width: 45%;
+        width: 100%;
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    .trend-price {
+        margin-bottom: 15px;
     }
 
 /* Section Activity */
@@ -655,9 +663,8 @@ main {
 
     .Activity-content {
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
-        width: 90%;
+        width: 100%;
         flex-direction: row;
         margin: 20px;
     }
@@ -668,21 +675,22 @@ main {
 
     .Activity-pic {
         margin-bottom: 1em;
+        }
     }
 
     .big {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
     
     .little {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
     
     .Frioul {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .big, .little, .Frioul {
