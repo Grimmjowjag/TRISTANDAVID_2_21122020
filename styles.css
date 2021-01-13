@@ -498,18 +498,18 @@ main {
 
 /* FOOTER */
 
-.bottom-page{
+.bottom-page {
     display: flex;
     background-color: #F2F2F2;
     width: 100%;
     margin-top: 3rem;
   }
   
-  .bottom-page div{
+  .bottom-page div {
     padding: 15px;
   }
   
-  .bottom-page p{
+  .bottom-page p {
     font-weight: 500;
   }
   
@@ -548,6 +548,12 @@ main {
 }
 
 /* Dimensions Tablette */
+
+@media screen and (min-width: 1024px) {
+    .fa-search {
+        visibility: hidden;
+    }
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -656,66 +662,7 @@ main {
 
 /* Section Activity */
     
-    .Activity header {
-        margin: 3rem 3rem 0 1.5rem;
-        font-size: 0.9rem;
-    }
-
-    .Activity-content {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        flex-direction: row;
-        margin: 20px;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    .Activity-pic {
-        margin-bottom: 1em;
-        }
-    }
-
-    .big {
-        width: 150px;
-        height: 150px;
-    }
     
-    .little {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .Frioul {
-        width: 150px;
-        height: 150px;
-    }
-
-    .big, .little, .Frioul {
-        border-radius: 25px 25px 0 0;
-        object-position: center;
-        object-fit: cover;
-    }
-
-/* Section bottom-page */
-
-    .bottom-page{
-        margin-top: 0;
-    }
-
-    .bottom-page div{
-        width: 100%;
-    }
-
-    /* Marges pour bottom-page */
-
-    .about, .our-lodging, .help {
-        margin-left: 1rem;
-    }
-
-}
 
 /* Dimensions mobile */
 
