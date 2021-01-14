@@ -399,7 +399,7 @@ main {
 
 /* Activy */
 
-.Activity {
+#Activity {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -624,7 +624,7 @@ main {
 
 /* Section Activity */
     
-    .Activity header {
+    #Activity header {
         margin: 3rem 3rem 1rem 0.5rem;
         font-size: 0.9rem;
     }
@@ -868,7 +868,7 @@ main {
 
 /* Section Activity */
     
-    .Activity header {
+    #Activity header {
         margin: 3rem 3rem 0 1.5rem;
         font-size: 0.9rem;
     }
