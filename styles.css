@@ -424,7 +424,7 @@ main {
 
 /* Activity-pic */
 
-.Activity, header {
+#Activity, header {
     display: flex;
     justify-content: flex-start;
     align-content: center;
@@ -432,7 +432,7 @@ main {
     margin: 0;
 }
 
-.Activity header {
+#Activity header {
     margin: 3rem 0 2rem 0;
 }
 
@@ -843,7 +843,7 @@ main {
     }
 
     .HebergementsMarseille header {
-        padding: 2rem 3rem 0 1rem;
+        padding: 2rem 3rem 0 1.5rem;
         font-size: 0.9rem;
     }
 
