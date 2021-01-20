@@ -832,6 +832,7 @@ main {
 
     .trend-choice img {
         width: 45%;
+        height: 12em;
     }
 
     .trend-details {
